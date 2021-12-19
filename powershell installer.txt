@@ -9,7 +9,7 @@ scoop install git
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 Write-Output("WhatsMeda Yükleniyor...")
 
-git clone https://github.com/harddecode/WhatsAndromeda
+git clone https://github.com/harddecode/WhatsMedaDuplicated
 Set-Location WhatsAndroMeda
 npm install @adiwajshing/baileys
 npm install chalk
